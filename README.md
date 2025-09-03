@@ -13,7 +13,7 @@ Tools Used: Python
 2. [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)  
 3. [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
 
-## 📌 1. Background & Overview  
+## 📌 1. Background & Overview 
 #### 1.1. Situation
 SuperStore is a global retail company with a massive customer base. As the Christmas and New Year holidays approach, the Marketing department wants to launch appreciation campaigns to recognize and retain loyal customers while also converting high-potential customers into loyal ones. Given the large dataset, manual segmentation is no longer feasible. Therefore, a data-driven approach using the RFM model is employed to identify valuable customer segments.
 
