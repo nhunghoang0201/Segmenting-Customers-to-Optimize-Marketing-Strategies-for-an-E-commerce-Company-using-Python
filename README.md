@@ -21,7 +21,7 @@ SuperStore is a global retail company with a massive customer base. As the Chris
 - How to turn promising customers into loyal and profitable customers 
 
 #### 1.3. Question
-- This analysis was conducted to answer two core business questions:
+This analysis was conducted to answer two core business questions:
 - How can we build the most effective customer appreciation campaign to maximize revenue during the Christmas and New Year season?
 - What is the optimal strategy to convert "Promising" customers into "Loyal" customers?
 
@@ -76,30 +76,14 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 | **Lost**            | 222, 221, 212, 211, 122, 121, 112, 111                                                                            | Haven’t bought in long time, very low activity & spend.  | Win-back campaigns or stop investing.                    |
 
 ## ⚒️ 4. Main Process
-#### 1️⃣ 4.1. Exploratory Data Analysis (EDA) 
-<img width="1361" height="697" alt="image" src="https://github.com/user-attachments/assets/845de177-9334-4527-a457-5ec456d72c7b" />
-<img width="1406" height="555" alt="image" src="https://github.com/user-attachments/assets/db2a9e55-42ea-4602-9505-57277e559cae" />
-<img width="1467" height="797" alt="image" src="https://github.com/user-attachments/assets/67ad366a-1167-4589-bbdf-0aaf6e7503dc" />
+#### 1️⃣ 4.1. EDA & Data Cleaning
+| Issue              | Findings                                     | Solution                                                                 |
+|--------------------|----------------------------------------------|--------------------------------------------------------------------------|
+| Data type          | Column `CustomerID` is float64               | Change to String                                                         |
+| Check Null value   | Column `CustomerID` has 135080 null values   | - Delete rows with `CustomerID` is null <br> - Fill `CustomerID` by using same `InvoiceNo` |
+| Check Abnormal value | `InvoiceNo` starting with `C` = Cancellation transactions | Drop rows with `InvoiceNo` starting with `C` |
 
-#### 2️⃣ 4.2 Data Cleaning & Preprocessing
-Check Datatype:
-- CustomerID type is float64 => Change to String
-
-Check Duplicate value:
-- There is duplicate value for Invoice No. However, Invoice No can have duplicate value as on invoice can include multiple SKUs
-
-Check Null value:
-- CustomerID: There is 135080 null value =>
-  Action:
-  *   Delete rows with CustomerID is null
-  *   Fill customerID by customerID have the same invoice no
-
-**Check Abnormal value:**
-- Invoice No start with C means Cancellation transactions => Action: Drop rows with InvoiceNo start with C
-<img width="1607" height="347" alt="image" src="https://github.com/user-attachments/assets/2f58b04a-d719-4133-b728-b5c12755440c" />
-<img width="1550" height="516" alt="image" src="https://github.com/user-attachments/assets/68596400-e5de-46e2-87ae-5affdc97a667" />
-<img width="1564" height="615" alt="image" src="https://github.com/user-attachments/assets/101d0fbd-6a3a-4ae1-b502-364244abf47b" />
-
+#### 2️⃣ 4.2 RFM Metrics & Scores Calculation
 #### 3️⃣ 4.3. RFM Metrics & Scores Calculation
 ###### Creating Recency, Frequency and Monetary
 <img width="1236" height="609" alt="image" src="https://github.com/user-attachments/assets/fae12e10-a4da-45f6-9c0a-ec1ffaa1f502" />
