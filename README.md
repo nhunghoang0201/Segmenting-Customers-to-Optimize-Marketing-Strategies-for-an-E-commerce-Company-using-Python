@@ -1,11 +1,11 @@
 # Segmenting Customers to Optimize Marketing Strategies for an E-commerce Company using Python & RFM model
 ![Image](https://github.com/user-attachments/assets/3abaca16-da25-4a78-864d-194928d9c1f6)
 
-Author: Hoang Thi Hong Nhung 
+- Author: Hoang Thi Hong Nhung 
 
-Date: 2025-09-03 
+- Date: 2025-09-03
 
-Tools Used: Python
+- Tools Used: Python
 
 ## 📑 Table of Contents  
 1. [📌 Background & Overview](#-background--overview)  
@@ -64,7 +64,47 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 - Frequency (F): How often a customer purchases.
 - Monetary (M): How much money a customer spends
 
-#### 3.2. Customer Segmentation & Scoring Criteria
+#### 3.2. RFM scoring
+- To standardize and segment customers, I applied **quantile-based binning (quintiles)**.
+
+* Quantile-based binning (quintiles) splits data into 5 equal groups (20% each), ranking values from lowest (group 1) to highest (group 5).*
+  
+-The logic:
+
+Recency: recent buyers get higher scores (5 = very recent, 1 = very old).
+
+Frequency & Monetary: higher frequency/spending get higher scores (5 = highest, 1 = lowest).
+
+- Scoring RFM
+
+##### Recency (days since last purchase)
+| Range (days) | Score |
+|--------------|-------|
+| 0–13         | 5     |
+| 14–32        | 4     |
+| 33–71        | 3     |
+| 72–179       | 2     |
+| 180–373      | 1     |
+
+##### Frequency (number of purchases)
+| Purchases | Score |
+|-----------|-------|
+| ≥ 210     | 5     |
+| 7–209     | 4     |
+| 3–6       | 3     |
+| 2         | 2     |
+| 1         | 1     |
+
+##### Monetary (total spending)
+| Spending (USD) | Score |
+|----------------|-------|
+| ≥ 2057         | 5     |
+| 942–2056       | 4     |
+| 490–941        | 3     |
+| 250–489        | 2     |
+| < 250          | 1     |
+
+#### 3.3. Customer Segmentation with RFM
 | Segment             | RFM Values (examples)                                                                                             | Behavior                                                 | Marketing Strategy                                       |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
 | **Champions**       | 555, 455                                                                                                          | Bought recently, buy often, spend the most.              | Best customers – reward them, upsell, ask for referrals. |
@@ -85,6 +125,7 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 | Abnormal value: `InvoiceNo` starting with `C` = Cancellation transactions | Drop rows with `InvoiceNo` starting with `C` |
 
 #### 2️⃣ 4.2 RFM Metrics & Scores Calculation
+
 #### 3️⃣ 4.3. RFM Metrics & Scores Calculation
 ###### Creating Recency, Frequency and Monetary
 <img width="1236" height="609" alt="image" src="https://github.com/user-attachments/assets/fae12e10-a4da-45f6-9c0a-ec1ffaa1f502" />
