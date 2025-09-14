@@ -67,7 +67,7 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 #### 3.2. RFM scoring
 - To standardize and segment customers, I applied **quantile-based binning (quintiles)**.
 
-* Quantile-based binning (quintiles) splits data into 5 equal groups (20% each), ranking values from lowest (group 1) to highest (group 5).*
+*Quantile-based binning (quintiles) splits data into 5 equal groups (20% each), ranking values from lowest (group 1) to highest (group 5).*
   
 -The logic:
 
@@ -85,9 +85,10 @@ Frequency & Monetary: higher frequency/spending get higher scores (5 = highest, 
 | **2** | 72–179         | 2                      | 250–489        |
 | **1** | 180–373        | 1                      | < 250          |
 
-
+- RFM value is obtained by concatenating the scores of R, F, and M (e.g., Recency=5, Frequency=4, Monetary=5 → RFM value = 545).
+- 
 #### 3.3. Customer Segmentation with RFM
-| Segment             | RFM Values (examples)                                                                                             | Behavior                                                 | Marketing Strategy                                       |
+| Segment             | RFM Values                                                                                             | Behavior                                                 | Marketing Strategy                                       |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
 | **Champions**       | 555, 455                                                                                                          | Bought recently, buy often, spend the most.              | Best customers – reward them, upsell, ask for referrals. |
 | **Loyal Customers** | 554, 553, 454, 453, 355, 354, 353                                                                                 | Frequent buyers, strong relationship, spend medium-high. | Build loyalty programs, exclusive offers.                |
