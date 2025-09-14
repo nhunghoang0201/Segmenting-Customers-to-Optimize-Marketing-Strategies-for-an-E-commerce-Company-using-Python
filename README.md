@@ -1,7 +1,6 @@
 # Segmenting Customers to Optimize Marketing Strategies for an E-commerce Company using Python & RFM model
 ![Image](https://github.com/user-attachments/assets/3abaca16-da25-4a78-864d-194928d9c1f6)
 
-## 📊 Project Title: [Your Project Name]  
 Author: Hoang Thi Hong Nhung 
 Date: 2025-09-03 
 Tools Used: Python
