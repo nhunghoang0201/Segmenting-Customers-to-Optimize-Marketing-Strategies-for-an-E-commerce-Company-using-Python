@@ -133,7 +133,7 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
   
 <img width="724" height="580" alt="image" src="https://github.com/user-attachments/assets/6d5782f7-7ab7-479c-87d5-7a3fe52cf3b5" />
 
-<img width="1157" height="655" alt="image" src="https://github.com/user-attachments/assets/06ec9d93-fbab-43f3-9096-171a31e0c20a" />
+<img width="1265" height="501" alt="image" src="https://github.com/user-attachments/assets/a40a7812-b577-413d-8ca5-3786c1e27c80" />
 
 <img width="1113" height="562" alt="image" src="https://github.com/user-attachments/assets/82f1315b-645a-4de4-915f-33d990aa4503" />
 
@@ -147,9 +147,14 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 
 <img width="805" height="397" alt="image" src="https://github.com/user-attachments/assets/21a5bce3-0a0f-4644-afd5-be4e411a3e45" />
 
-#### 3️⃣ 4.4. Visualization
-###### Compare different numbers of customers and revenue in different segments 
+#### 3️⃣ 4.3. Visualization
+#### Compare different numbers of customers and revenue in different segments from 2010 to 2011
 
+Insight: From 2010 to 2011, Top 3 most crowded customer groups include Sleepers, Lost, Promissing while  Top 3 customer groups with highest revenue include Champions, Big spenders, Sleepers => Champion & Big spender customers take up a small number of customers but contribute the most to the revenue.
+
+<img width="1000" height="289" alt="image" src="https://github.com/user-attachments/assets/cc80b56a-a4ef-408a-8b03-853db801caea" />
+
+<img width="834" height="504" alt="image" src="https://github.com/user-attachments/assets/2b1dcb9e-a5ad-4632-9eb9-5347c7080dcf" />
 
 ###### Compare quantity of customer in different segmentation and countries
 <img width="1413" height="270" alt="image" src="https://github.com/user-attachments/assets/db697f8b-9675-4a32-b03b-ba90d24d8644" />
