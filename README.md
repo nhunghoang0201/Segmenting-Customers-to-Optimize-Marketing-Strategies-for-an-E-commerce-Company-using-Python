@@ -119,7 +119,13 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
   - **Recency (R):** Days since the last purchase.  
   - **Frequency (F):** Total number of transactions.  
   - **Monetary (M):** Total spending amount.
-    
+#Create Recency series
+ecom_transactions["InvoiceDate"] = pd.to_datetime(ecom_transactions["InvoiceDate"])
+Maxdate = ecom_transactions.groupby('CustomerID')['InvoiceDate'].max()
+comparison_date = pd.Timestamp("2011-12-09")
+Recency= comparison_date - Maxdate
+Recency
+
 ###### Scoring RFM
 - After calculating **R, F, and M**, scores are assigned based on **quantile-based binning (quintiles)**.  
 - Data is split into **5 equal groups (20% each)**, and assigned scores from **1 → 5**:  
