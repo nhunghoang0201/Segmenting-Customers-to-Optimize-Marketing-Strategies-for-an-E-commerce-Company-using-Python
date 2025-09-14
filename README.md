@@ -78,11 +78,11 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 
 ## ⚒️ 4. Main Process
 #### 1️⃣ 4.1. EDA & Data Cleaning
-| Issue              | Findings                                     | Solution                                                                 |
-|--------------------|----------------------------------------------|--------------------------------------------------------------------------|
-| Data type          | Column `CustomerID` is float64               | Change to String                                                         |
-| Check Null value   | Column `CustomerID` has 135080 null values   | - Delete rows with `CustomerID` is null <br> - Fill `CustomerID` by using same `InvoiceNo` |
-| Check Abnormal value | `InvoiceNo` starting with `C` = Cancellation transactions | Drop rows with `InvoiceNo` starting with `C` |
+| Findings                                     | Solution                                                                 |
+|----------------------------------------------|--------------------------------------------------------------------------|
+| Wrong data type: Column `CustomerID` is float64               | Change to String                                                         |
+| Null value: Column `CustomerID` has 135080 null values   | - Delete rows with `CustomerID` is null <br> - Fill `CustomerID` by using same `InvoiceNo` |
+| Abnormal value: `InvoiceNo` starting with `C` = Cancellation transactions | Drop rows with `InvoiceNo` starting with `C` |
 
 #### 2️⃣ 4.2 RFM Metrics & Scores Calculation
 #### 3️⃣ 4.3. RFM Metrics & Scores Calculation
