@@ -119,22 +119,36 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
   - **Recency (R):** Days since the last purchase.  
   - **Frequency (F):** Total number of transactions.  
   - **Monetary (M):** Total spending amount.
-#Create Recency series
-ecom_transactions["InvoiceDate"] = pd.to_datetime(ecom_transactions["InvoiceDate"])
-Maxdate = ecom_transactions.groupby('CustomerID')['InvoiceDate'].max()
-comparison_date = pd.Timestamp("2011-12-09")
-Recency= comparison_date - Maxdate
-Recency
+
+<img width="918" height="677" alt="image" src="https://github.com/user-attachments/assets/0659c4a3-ca0a-4fbd-b4ea-cec2b6af0af3" />
+
+<img width="918" height="677" alt="image" src="https://github.com/user-attachments/assets/ac879d4b-2b7e-482a-9f1d-f3c610a84cb5" />
+
+<img width="1030" height="622" alt="image" src="https://github.com/user-attachments/assets/3b84b682-345d-4b9e-8d28-ed82506c94f2" />
 
 ###### Scoring RFM
 - After calculating **R, F, and M**, scores are assigned based on **quantile-based binning (quintiles)**.  
 - Data is split into **5 equal groups (20% each)**, and assigned scores from **1 → 5**:  
   - **1 = lowest values**, **5 = highest values** for Monetary and Frequency
   - **1 = oldest purchase**, **5 = most recent purchase** for Recency
-- Finally, the three scores are concatenated into the **RFM_Score** column (e.g., R=5, F=4, M=2 → RFM_Score = 542).  
+- The three scores are concatenated into the **RFM_Score** column (e.g., R=5, F=4, M=2 → RFM_Score = 542).
+  
+<img width="724" height="580" alt="image" src="https://github.com/user-attachments/assets/6d5782f7-7ab7-479c-87d5-7a3fe52cf3b5" />
+
+<img width="1157" height="655" alt="image" src="https://github.com/user-attachments/assets/06ec9d93-fbab-43f3-9096-171a31e0c20a" />
+
+<img width="1113" height="562" alt="image" src="https://github.com/user-attachments/assets/82f1315b-645a-4de4-915f-33d990aa4503" />
+
 
 ###### Customer Segmentation based on RFM model
 - Using the **RFM_Score**, customers are segmented into groups for business insights.  
+
+<img width="1104" height="748" alt="image" src="https://github.com/user-attachments/assets/c690a5e6-676a-472e-a335-e8f334f61077" />
+
+<img width="1922" height="1112" alt="image" src="https://github.com/user-attachments/assets/1c37fc18-eb50-44d3-8b1c-38ff14038e02" />
+
+<img width="805" height="397" alt="image" src="https://github.com/user-attachments/assets/21a5bce3-0a0f-4644-afd5-be4e411a3e45" />
+
 
 
 #### 3️⃣ 4.4. Visualization
