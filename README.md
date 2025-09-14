@@ -111,9 +111,7 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 📌 **Final dataset after cleaning**: **397,129 transactions, 4,372 unique customers** → ✔️ ready for RFM modeling.    
 
 #### 2️⃣ 4.2 RFM Metrics & Scores Calculation
-
-#### 3️⃣ 4.3. RFM Metrics & Scores Calculation
-###### Creating Recency, Frequency and Monetary
+#### Creating Recency, Frequency and Monetary
 - From the `ecom_transactions` dataset, transactions are **aggregated per CustomerID**.  
 - The new table `RFM_dataset` is created with 3 main metrics:  
   - **Recency (R):** Days since the last purchase.  
@@ -126,7 +124,7 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 
 <img width="1030" height="622" alt="image" src="https://github.com/user-attachments/assets/3b84b682-345d-4b9e-8d28-ed82506c94f2" />
 
-###### Scoring RFM
+#### Scoring RFM
 - After calculating **R, F, and M**, scores are assigned based on **quantile-based binning (quintiles)**.  
 - Data is split into **5 equal groups (20% each)**, and assigned scores from **1 → 5**:  
   - **1 = lowest values**, **5 = highest values** for Monetary and Frequency
@@ -140,7 +138,7 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 <img width="1113" height="562" alt="image" src="https://github.com/user-attachments/assets/82f1315b-645a-4de4-915f-33d990aa4503" />
 
 
-###### Customer Segmentation based on RFM model
+#### Customer Segmentation based on RFM model
 - Using the **RFM_Score**, customers are segmented into groups for business insights.  
 
 <img width="1104" height="748" alt="image" src="https://github.com/user-attachments/assets/c690a5e6-676a-472e-a335-e8f334f61077" />
@@ -149,15 +147,9 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 
 <img width="805" height="397" alt="image" src="https://github.com/user-attachments/assets/21a5bce3-0a0f-4644-afd5-be4e411a3e45" />
 
-
-
 #### 3️⃣ 4.4. Visualization
-###### Compare different number of customers in different segmentation
-<img width="1191" height="617" alt="image" src="https://github.com/user-attachments/assets/40942f4f-d8a5-41b8-b3bc-9327e92a802c" />
+###### Compare different numbers of customers and revenue in different segments 
 
-###### Compare revenue in different segmentation
-<img width="1226" height="797" alt="image" src="https://github.com/user-attachments/assets/34e8c95d-f318-4fe6-b8f5-dc7ace22ad55" />
-<img width="1186" height="797" alt="image" src="https://github.com/user-attachments/assets/971f36fc-1e79-418c-9a4a-75f65c4a03c6" />
 
 ###### Compare quantity of customer in different segmentation and countries
 <img width="1413" height="270" alt="image" src="https://github.com/user-attachments/assets/db697f8b-9675-4a32-b03b-ba90d24d8644" />
