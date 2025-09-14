@@ -194,13 +194,13 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 #### Objective 1: Customer Appreciation and ROI Maximization
 ##### General Recommendations:
 
-Focus on 4 Strategic Segments: Campaigns should prioritize resources for four groups: Champions, Big Spenders, Promising, and Sleepers, as they contribute the most revenue.
+- Focus on 4 Strategic Segments: Campaigns should prioritize resources for four groups: Champions, Big Spenders, Promising, and Sleepers, as they contribute the most revenue.
 
-Prioritize the UK Market: Implement robust and in-depth campaigns in the United Kingdom.
+- Prioritize the UK Market: Implement robust and in-depth campaigns in the United Kingdom.
 
-The campaign should be launched in early October and mid December.
+- The campaign should be launched in early October and mid December.
 
-Detailed Recommendations per Segment:
+- Detailed Recommendations per Segment:
 ##### Tailored Campaigns for key Customer Segment  
 
 | Segment    | Objective                          | Campaign                                                                 | Expected Impact                                      |
