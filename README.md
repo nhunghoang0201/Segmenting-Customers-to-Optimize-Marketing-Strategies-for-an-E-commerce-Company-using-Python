@@ -106,23 +106,29 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 |--------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Wrong data type: Column `CustomerID` is float64   | Convert to String                                                        | ✅ Converted successfully → IDs are consistent                                          |
 | Null values: Column `CustomerID` has 135,080 null values (~25% of dataset) | - Drop rows with `CustomerID` is null <br> - Fill missing `CustomerID` using same `InvoiceNo` | ✅ Dataset reduced from **541,909 → 406,829 rows** (≈75% retained)                       |
-| Abnormal values: `InvoiceNo` starting with `C` = Cancellation transactions | Drop rows with `InvoiceNo` starting with `C`                             | ✅ ~9,700 rows removed (≈2.4% of dataset)                                               |
+| Abnormal values: `InvoiceNo` starting with `C` = Cancellation transactions | Drop rows with `InvoiceNo` starting with `C`                             | ✅ **9,288 rows removed** (≈2.3% of dataset)                                             |
 
-📌 **Final dataset after cleaning**: **397,129 transactions, 4,372 unique customers** → ✔️ ready for RFM modeling.  
+📌 **Final dataset after cleaning**: **397,129 transactions, 4,372 unique customers** → ✔️ ready for RFM modeling.    
 
 #### 2️⃣ 4.2 RFM Metrics & Scores Calculation
 
 #### 3️⃣ 4.3. RFM Metrics & Scores Calculation
 ###### Creating Recency, Frequency and Monetary
-<img width="1236" height="609" alt="image" src="https://github.com/user-attachments/assets/fae12e10-a4da-45f6-9c0a-ec1ffaa1f502" />
-<img width="957" height="542" alt="image" src="https://github.com/user-attachments/assets/27fd7e5f-f35e-4526-8e90-3a0f18701598" />
-<img width="1145" height="550" alt="image" src="https://github.com/user-attachments/assets/e7a1bd79-b040-47be-9f64-1c4fd633cc81" />
-<img width="1143" height="530" alt="image" src="https://github.com/user-attachments/assets/170c6228-5340-413d-920c-e007de3076c9" />
-<img width="1284" height="585" alt="image" src="https://github.com/user-attachments/assets/d38ffc1f-e18b-427f-82a7-82d9a0d7b3fc" />
-<img width="1448" height="508" alt="image" src="https://github.com/user-attachments/assets/9d914a29-38b2-4781-9b4c-dc798e4b3495" />
+- From the `ecom_transactions` dataset, transactions are **aggregated per CustomerID**.  
+- The new table `RFM_dataset` is created with 3 main metrics:  
+  - **Recency (R):** Days since the last purchase.  
+  - **Frequency (F):** Total number of transactions.  
+  - **Monetary (M):** Total spending amount.
+    
+###### Scoring RFM
+- After calculating **R, F, and M**, scores are assigned based on **quantile-based binning (quintiles)**.  
+- Data is split into **5 equal groups (20% each)**, and assigned scores from **1 → 5**:  
+  - **1 = lowest values**, **5 = highest values** for Monetary and Frequency
+  - **1 = oldest purchase**, **5 = most recent purchase** for Recency
+- Finally, the three scores are concatenated into the **RFM_Score** column (e.g., R=5, F=4, M=2 → RFM_Score = 542).  
 
 ###### Customer Segmentation based on RFM model
-<img width="1363" height="791" alt="image" src="https://github.com/user-attachments/assets/092d2d67-8b4a-4dc1-b8de-e1388494682c" />
+- Using the **RFM_Score**, customers are segmented into groups for business insights.  
 
 
 #### 3️⃣ 4.4. Visualization
