@@ -214,14 +214,19 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 
 #### Objective 2: Turning Promising Customers into Potential High-Value Segments
 
-| Goal | Tactics | Example in E-commerce |
-|------|---------|------------------------|
-| Increase **Frequency** | - Offer vouchers/discounts for 2nd & 3rd purchase <br> - Launch "Buy again & save" campaigns | "Get 10% off your next order this week" |
-| Increase **Monetary Value** | - Upsell higher-value items <br> - Bundle promotions with free shipping threshold | "Buy £50+ and get free delivery" |
-| Enhance **Recency** | - Personalized recommendations based on recent purchase <br> - Occasion-based offers (Christmas, New Year) | "Complete your set with matching accessories" |
-| Build **Loyalty Path** | - Tiered rewards/points program <br> - Exclusive benefits for repeat buyers | "Earn double points when you shop again this month" |
+### 🎯 Campaign Playbook: Converting Promising Customers into High-Value Segments
 
-📌 **Key Idea**: Promising customers are already active. With timely offers and loyalty incentives, they can be converted into **Champions** or **Big Spenders**, driving long-term revenue growth.  
+### 🎯 Campaign Playbook: Upgrading Promising Customers
+
+| Goal | Action | Example |
+|------|---------|---------|
+| **Increase Frequency** | Offer repeat-purchase incentives (discounts, loyalty fast-track, gamified challenges) | "Get £10 off your next order this week" / "Earn double points on next 2 orders" |
+| **Increase Monetary Value** | Encourage larger baskets through bundling, upselling, and free-shipping thresholds | "Free shipping on orders over £60" / "Bundle Rabbit Night Light + Paper Chain Kit and save 15%" |
+| **Enhance Recency** | personalized recommendations, VIP perks, and referral rewards based on recent purchase | "Enjoy free next-day delivery this weekend – VIP for a day!" / "Give £5, Get £5 when you share with friends" |
+
+📌 **Key Transition Path**:  
+- **Promising → Big Spender**: focus on **Monetary growth** via bundles, upselling, higher basket size.  
+- **Promising → Champion**: focus on **Frequency & Loyalty** via fast-track programs, streak rewards, and seasonal exclusives.  
 
 
 
