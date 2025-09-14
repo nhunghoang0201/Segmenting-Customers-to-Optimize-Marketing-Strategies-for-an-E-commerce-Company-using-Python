@@ -133,7 +133,7 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
   
 <img width="724" height="580" alt="image" src="https://github.com/user-attachments/assets/6d5782f7-7ab7-479c-87d5-7a3fe52cf3b5" />
 
-<img width="1265" height="501" alt="image" src="https://github.com/user-attachments/assets/a40a7812-b577-413d-8ca5-3786c1e27c80" />
+<img width="1274" height="699" alt="image" src="https://github.com/user-attachments/assets/8a93b44f-7124-4423-bd42-ae1c01fdceca" />
 
 <img width="1113" height="562" alt="image" src="https://github.com/user-attachments/assets/82f1315b-645a-4de4-915f-33d990aa4503" />
 
@@ -143,59 +143,56 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 
 <img width="1104" height="748" alt="image" src="https://github.com/user-attachments/assets/c690a5e6-676a-472e-a335-e8f334f61077" />
 
-<img width="1922" height="1112" alt="image" src="https://github.com/user-attachments/assets/1c37fc18-eb50-44d3-8b1c-38ff14038e02" />
+<img width="1265" height="501" alt="image" src="https://github.com/user-attachments/assets/d9080f7b-b8e5-4f28-bfa6-306708dacbb8" />
 
 <img width="805" height="397" alt="image" src="https://github.com/user-attachments/assets/21a5bce3-0a0f-4644-afd5-be4e411a3e45" />
 
 #### 3️⃣ 4.3. Visualization
 #### Compare different numbers of customers and revenue in different segments from 2010 to 2011
 
-Insight: From 2010 to 2011, Top 3 most crowded customer groups include Sleepers, Lost, Promissing while  Top 3 customer groups with highest revenue include Champions, Big spenders, Sleepers => Champion & Big spender customers take up a small number of customers but contribute the most to the revenue.
+**Insight**: From 2010 to 2011, Top 3 most crowded customer groups include Sleepers, Lost, Promissing while  Top 3 customer groups with highest revenue include Champions, Big spenders, Sleepers => Champion & Big spender customers take up a small number of customers but contribute the most to the revenue.
 
 <img width="1000" height="289" alt="image" src="https://github.com/user-attachments/assets/cc80b56a-a4ef-408a-8b03-853db801caea" />
 
 <img width="834" height="504" alt="image" src="https://github.com/user-attachments/assets/2b1dcb9e-a5ad-4632-9eb9-5347c7080dcf" />
 
-###### Compare quantity of customer in different segmentation and countries
-<img width="1413" height="270" alt="image" src="https://github.com/user-attachments/assets/db697f8b-9675-4a32-b03b-ba90d24d8644" />
-<img width="1802" height="989" alt="image" src="https://github.com/user-attachments/assets/826254e9-6cc0-445c-a979-90e38a8a3293" />
+#### Compare revenue in different segments at end of the year in 2010 and 2011
+**Insight**: At the end of 2010 and 2011, Champions and Big Spenders—though few in number—contributed the most revenue, while Promising customers showed strong potential for future growth.
 
-###### Compare revenue in date of the end of 2010 and 2011
-<img width="1450" height="332" alt="image" src="https://github.com/user-attachments/assets/8a98fdee-ad42-4492-aaa3-5fb005ad1f7e" />
+<img width="1000" height="289" alt="image" src="https://github.com/user-attachments/assets/cc80b56a-a4ef-408a-8b03-853db801caea" />
+
+<img width="1008" height="599" alt="image" src="https://github.com/user-attachments/assets/d0f4f6c1-b318-493e-abd4-02c52fa0f19f" />
+
+
+#### Compare the quantity of customers in different segmentations and countries
+**Insight**: Over 90% of SuperStore’s customers come from the UK, with Sleepers and Promising segments forming the majority—highlighting both a strategic market and untapped growth potential.
+<img width="1478" height="490" alt="image" src="https://github.com/user-attachments/assets/36e264de-6edb-4339-83f4-27bde80b671f" />
+
+#### Compare revenue in date of the end of 2010 and 2011
+**Insight**: Revenue surges from the beginning of October to mid-December, confirming this as the golden period for launching sales-driving campaigns
 <img width="979" height="1990" alt="image" src="https://github.com/user-attachments/assets/6d3a0d20-ce2b-4495-994d-8d72676fdacf" />
 
-###### Top 3 products with highest revenue in each segmentation
-<img width="1402" height="211" alt="image" src="https://github.com/user-attachments/assets/2b1d446f-5b09-4338-bd96-ec676ac40146" />
-<img width="1256" height="739" alt="image" src="https://github.com/user-attachments/assets/777c0d8a-e41e-4dd5-bbab-28f8a8762c4c" />
-<img width="1295" height="867" alt="image" src="https://github.com/user-attachments/assets/38fcb2fb-e6e9-4bbc-b111-ac438838bd4c" />
+###### Top 3 products with highest revenue in each segmentation in the end of 2010 and 2011
+**Insight**: Top 3 products with having highest revenue in important customer segmentation
+  
+  - Champion customer: REGENCY CAKESTAND 3 TIER, RABBIT NIGHT LIGHT, and PAPER CHAIN KIT 50'S CHRISTMAS.
+  
+  - Big spender customer: PAPER CRAFT LITTLE BIRDIE, Manual and POSTAGE.
+  
+  - Promissing customer: JUMBO BAG RED RETROSPOT, RABBIT NIGHT LIGHT, and PAPER CHAIN KIT 50'S CHRISTMAS.
+
+  - Sleepers: WHITE HANGING HEART T-LIGHT HOLDER, RED HARMONICA IN BOX, and ROUND SNACK BOXES SET OF 4 FRUITS
+    
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/4ea71a4d-3cb7-47a2-aa90-c858770fa351" />
 
 ###### Average value per order
-<img width="1244" height="360" alt="image" src="https://github.com/user-attachments/assets/4bdacfba-6329-4618-8d91-71c655224d07" />
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/55492083-33c3-43a3-8458-0c3d1b1e6130" />
+**Insight**: Big Spenders, Sleepers, and Champions deliver the highest average order values at £1,062, £587, and £528, respectively
+
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/34ea2b6c-c444-4070-9775-3161313dc83b" />
 
 ## 🔎 5. Final Conclusion & Recommendations  
-#### 5.1. Insight
--  Insight 1: In the end of 2010 and 2011, Top 3 most crowded customer groups include Sleepers, Lost, Promissing while  Top 3 customer groups with highest revenue include Champions, Big spenders, Promising => Champion & Big spender customers take up small number of customer but contribute the most to the revenue
-
-- Insight 2: From 2010 to 2011, Top 3 most crowded customer groups include Sleepers, Lost, Promissing while  Top 3 customer groups with highest revenue include Champions, Big spenders, Sleepers => Champion & Big spender customers take up small number of customer but contribute the most to the revenue
-
-- Insight 3: Over 90% of SuperStore's customers are from the UK, making it an undeniable strategic market
-
-- Insight 4: Revenue surges from the beginning of October to mid-December, confirming this as the golden period for launching sales-driving campaigns.
-
-- Insight 5 : Top 3 products with having highest revenue in important customer segmentation
-
-+ Champion customer: REGENCY CAKESTAND 3 TIER, RABBIT NIGHT LIGHT, and PAPER CHAIN KIT 50'S CHRISTMAS.
-
-+ Big spender customer: PAPER CRAFT LITTLE BIRDIE, Manual and POSTAGE.
-
-+ Promissing customer: JUMBO BAG RED RETROSPOT, RABBIT NIGHT LIGHT, and PAPER CHAIN KIT 50'S CHRISTMAS.
-
-+ Sleepers: WHITE HANGING HEART T-LIGHT HOLDER, RED HARMONICA IN BOX, and ROUND SNACK BOXES SET OF 4 FRUITS
-
-#### 5.2. Recommendations
-###### Objective 1: Customer Appreciation and Revenue Maximization
-General Recommendations:
+#### Objective 1: Customer Appreciation and ROI Maximization
+##### General Recommendations:
 
 Focus on 4 Strategic Segments: Campaigns should prioritize resources for four groups: Champions, Big Spenders, Promising, and Sleepers, as they contribute the most revenue.
 
@@ -204,41 +201,27 @@ Prioritize the UK Market: Implement robust and in-depth campaigns in the United 
 The campaign should be launched in early October and mid December.
 
 Detailed Recommendations per Segment:
+##### Tailored Campaigns for key Customer Segment  
 
-Champions:
-
-Goal: Enhance retention, recognition, and maximize lifetime value.
-
-Actions: Create a top-tier loyalty program exclusively for them, Send personalized, exclusive Christmas & New Year gifts, Provide early access to limited-edition holiday collections, Include a handwritten thank-you card with their orders.
-
-Big Spenders:
-
-Goal: Increase purchase frequency.
-
-Actions: Offer an exclusive gift set or luxury bundle when they make another high-value purchase; Provide a time-limited voucher or free shipping on their next order to encourage a quicker return.
-
-Promising:
-
-Goal: Increase order value (Monetary) and encourage repeat purchases.
-
-Actions: Offer vouchers, discounts, or gifts for their next purchase, especially on high-value orders; Implement cross-selling promotions related to their favorite products like JUMBO BAG RED RETROSPOT and RABBIT NIGHT LIGHT.
-
-Sleepers:
-
-Goal: Reactivate them and improve their Recency score.
-
-Actions: Launch a "We Miss You!" campaign via email with special offers (discounts, gifts, vouchers) to encourage them to return.
-
-
-###### Objective 2: Launch campaigns to turn prospects into loyal customers
-Voucher/Discount/Cashback when buy combo especially when customer buy top product including JUMBO BAG RED RETROSPOT, RABBIT NIGHT LIGHT, and PAPER CHAIN KIT 50'S CHRISTMAS
-
-Offer points, voucher, discount & coupon when buy the next time
-
-Launch loyalty program and offer special benefits if promissing customer become loyal customer
+| Segment    | Objective                          | Campaign                                                                 | Expected Impact                                      |
+|------------|------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------|
+| 🏆 Champions | Retain & reward loyalty            | VIP appreciation program during Christmas & New Year: exclusive gifts, early access to holiday collections, personalized thank-you notes | Strengthen retention, maximize lifetime value         |
+| 💎 Big Spenders | Boost purchase frequency          | Time-limited vouchers, free shipping, or luxury bundles on next high-value purchase | Encourage repeat purchases, lift avg. revenue/customer |
+| 🌱 Promising  | Convert into Champions / Big Spenders | Cross-sell & upsell on favorite products (e.g., JUMBO BAG RED RETROSPOT, RABBIT NIGHT LIGHT) + loyalty points & tiered benefits | Increase order value & frequency; move into high-value segments |
+| 😴 Sleepers   | Reactivate & improve recency       | “We Miss You!” reactivation campaign with special discounts, vouchers, or gifts | Bring inactive customers back, reduce churn           |
 
 
 
+#### Objective 2: Turning Promising Customers into Potential High-Value Segments
+
+| Goal | Tactics | Example in E-commerce |
+|------|---------|------------------------|
+| Increase **Frequency** | - Offer vouchers/discounts for 2nd & 3rd purchase <br> - Launch "Buy again & save" campaigns | "Get 10% off your next order this week" |
+| Increase **Monetary Value** | - Upsell higher-value items <br> - Bundle promotions with free shipping threshold | "Buy £50+ and get free delivery" |
+| Enhance **Recency** | - Personalized recommendations based on recent purchase <br> - Occasion-based offers (Christmas, New Year) | "Complete your set with matching accessories" |
+| Build **Loyalty Path** | - Tiered rewards/points program <br> - Exclusive benefits for repeat buyers | "Earn double points when you shop again this month" |
+
+📌 **Key Idea**: Promising customers are already active. With timely offers and loyalty incentives, they can be converted into **Champions** or **Big Spenders**, driving long-term revenue growth.  
 
 
 
