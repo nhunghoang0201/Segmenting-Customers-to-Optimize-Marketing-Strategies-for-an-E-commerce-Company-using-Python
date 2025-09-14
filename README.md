@@ -75,34 +75,16 @@ Recency: recent buyers get higher scores (5 = very recent, 1 = very old).
 
 Frequency & Monetary: higher frequency/spending get higher scores (5 = highest, 1 = lowest).
 
-- Scoring RFM
+- Scoring RFM:
+  
+| Score | Recency (days since last purchase) | Frequency (number of purchases) | Monetary (total spending, £) |
+|-------|----------------|------------------------|----------------|
+| **5** | 0–13           | ≥ 210                  | ≥ 2057         |
+| **4** | 14–32          | 7–209                  | 942–2056       |
+| **3** | 33–71          | 3–6                    | 490–941        |
+| **2** | 72–179         | 2                      | 250–489        |
+| **1** | 180–373        | 1                      | < 250          |
 
-##### Recency (days since last purchase)
-| Range (days) | Score |
-|--------------|-------|
-| 0–13         | 5     |
-| 14–32        | 4     |
-| 33–71        | 3     |
-| 72–179       | 2     |
-| 180–373      | 1     |
-
-##### Frequency (number of purchases)
-| Purchases | Score |
-|-----------|-------|
-| ≥ 210     | 5     |
-| 7–209     | 4     |
-| 3–6       | 3     |
-| 2         | 2     |
-| 1         | 1     |
-
-##### Monetary (total spending)
-| Spending (USD) | Score |
-|----------------|-------|
-| ≥ 2057         | 5     |
-| 942–2056       | 4     |
-| 490–941        | 3     |
-| 250–489        | 2     |
-| < 250          | 1     |
 
 #### 3.3. Customer Segmentation with RFM
 | Segment             | RFM Values (examples)                                                                                             | Behavior                                                 | Marketing Strategy                                       |
