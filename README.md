@@ -69,7 +69,7 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 
 *Quantile-based binning (quintiles) splits data into 5 equal groups (20% each), ranking values from lowest (group 1) to highest (group 5).*
   
--The logic:
+- The logic:
 
 Recency: recent buyers get higher scores (5 = very recent, 1 = very old).
 
@@ -86,7 +86,7 @@ Frequency & Monetary: higher frequency/spending get higher scores (5 = highest, 
 | **1** | 180–373        | 1                      | < 250          |
 
 - RFM value is obtained by concatenating the scores of R, F, and M (e.g., Recency=5, Frequency=4, Monetary=5 → RFM value = 545).
-- 
+  
 #### 3.3. Customer Segmentation with RFM
 | Segment             | RFM Values                                                                                             | Behavior                                                 | Marketing Strategy                                       |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
@@ -101,11 +101,15 @@ Frequency & Monetary: higher frequency/spending get higher scores (5 = highest, 
 
 ## ⚒️ 4. Main Process
 #### 1️⃣ 4.1. EDA & Data Cleaning
-| Findings                                     | Solution                                                                 |
-|----------------------------------------------|--------------------------------------------------------------------------|
-| Wrong data type: Column `CustomerID` is float64               | Change to String                                                         |
-| Null value: Column `CustomerID` has 135080 null values   | - Delete rows with `CustomerID` is null <br> - Fill `CustomerID` by using same `InvoiceNo` |
-| Abnormal value: `InvoiceNo` starting with `C` = Cancellation transactions | Drop rows with `InvoiceNo` starting with `C` |
+
+| Findings | Solution | Result / Data Readiness |
+|----------|----------|--------------------------|
+| Wrong data type: Column `CustomerID` is float64 | Change to String | Converted successfully → IDs are consistent |
+| Null values: Column `CustomerID` has 135,080 null values (~25% of dataset) | - Delete rows with `CustomerID` is null <br> - Fill `CustomerID` by using same `InvoiceNo` | After cleaning, dataset reduced from **541,909 → 406,829 rows**, equivalent to ~75% data retained |
+| Abnormal values: `InvoiceNo` starting with `C` = Cancellation transactions | Drop rows with `InvoiceNo` starting with `C` | ~9,700 rows removed (≈2.4% of data) |
+
+📌 **Final dataset after cleaning**: **397,129 transactions, 4,372 unique customers** → ready for RFM modeling.  
+
 
 #### 2️⃣ 4.2 RFM Metrics & Scores Calculation
 
