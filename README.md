@@ -33,6 +33,9 @@ Strategy & marketing teams
 #### Table Name: Ecommerce retail
 
 #### Table description
+<details>
+  <summary>Ecommerce retail</summary>
+
 | Field       | Type    | Definition                                                                                      | Example                            |
 | ----------- | ------- | ----------------------------------------------------------------------------------------------- | ---------------------------------- |
 | InvoiceNo   | object  | Invoice number. A 6-digit unique ID for each transaction. If it starts with 'C' → cancellation. | 536365                             |
