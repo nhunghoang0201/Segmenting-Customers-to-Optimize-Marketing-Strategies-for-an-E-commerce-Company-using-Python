@@ -214,10 +214,6 @@ RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring t
 
 #### Objective 2: Turning Promising Customers into Potential High-Value Segments
 
-### 🎯 Campaign Playbook: Converting Promising Customers into High-Value Segments
-
-### 🎯 Campaign Playbook: Upgrading Promising Customers
-
 | Goal | Action | Example |
 |------|---------|---------|
 | **Increase Frequency** | Offer repeat-purchase incentives (discounts, loyalty fast-track, gamified challenges) | "Get £10 off your next order this week" / "Earn double points on next 2 orders" |
