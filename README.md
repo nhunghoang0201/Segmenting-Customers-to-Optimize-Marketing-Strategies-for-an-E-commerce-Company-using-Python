@@ -14,7 +14,7 @@
 
 ## 📌 1. Background & Overview 
 #### 1.1. Situation
-SuperStore is a global retail company with a massive customer base. As the Christmas and New Year holidays approach, the Marketing department wants to launch appreciation campaigns to recognize and retain loyal customers while also converting high-potential customers into loyal ones. Given the large dataset, manual segmentation is no longer feasible. Therefore, a data-driven approach using the RFM model is employed to identify valuable customer segments.
+SuperStore is a global retail company with a massive customer base. As the Christmas and New Year holidays approach, the Marketing department wants to launch appreciation campaigns to recognize and retain loyal customers while also converting high-potential customers into loyal ones. Given the large dataset, manual segmentation is no longer feasible. Therefore, **a data-driven approach using the RFM model is employed to identify valuable customer segments**.
 
 #### 1.2. Complication
 - The exponential growth in the volume of customer data has made manual segmentation using Excel no longer feasible. The company requires a systematic, data-driven approach to effectively segment customers
@@ -23,14 +23,14 @@ SuperStore is a global retail company with a massive customer base. As the Chris
 
 #### 1.3. Question
 This analysis was conducted to answer two core business questions:
-- How can we build the most effective customer appreciation campaign to maximize revenue during the Christmas and New Year season?
-- What is the optimal strategy to convert "Promising" customers into "Loyal" customers?
+- How can we **build the most effective customer appreciation campaign to maximize revenue** during the Christmas and New Year season?
+- What is **the optimal strategy to convert "Promising" customers into "Loyal" customers**?
 
 #### 1.4. Target Audience
-Strategy & marketing teams
+- Strategy & marketing teams
 
 ## 📂 2. Dataset Description & Data Structure  
-#### Table Name: Ecommerce retail
+#### Table Name: E-commerce retail
 
 #### Table description
 <details>
@@ -46,6 +46,7 @@ Strategy & marketing teams
 | UnitPrice   | float64 | Product price per unit (GBP).                                                                   | 2.55                               |
 | CustomerID  | float64 | Unique 5-digit identifier for each customer.                                                    | 17850.0                            |
 | Country     | object  | Country name where the customer resides.                                                        | United Kingdom                     |
+</details>
 
 #### Data Snapshot
 | Column Name | Data Type | Description                                                       | Example                            |
