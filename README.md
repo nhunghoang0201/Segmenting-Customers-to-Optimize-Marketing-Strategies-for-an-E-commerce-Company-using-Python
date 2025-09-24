@@ -48,7 +48,9 @@ This analysis was conducted to answer two core business questions:
 | Country     | object  | Country name where the customer resides.                                                        | United Kingdom                     |
 </details>
 
-#### Data Snapshot
+<details>
+  <summary>Data Snapshot</summary>
+
 | Column Name | Data Type | Description                                                       | Example                            |
 | ----------- | --------- | ----------------------------------------------------------------- | ---------------------------------- |
 | InvoiceNo   | object    | Invoice number (6-digit unique). Starts with 'C' if cancellation. | 536365                             |
@@ -59,11 +61,11 @@ This analysis was conducted to answer two core business questions:
 | UnitPrice   | float64   | Price per unit (£).                                               | 2.55                               |
 | CustomerID  | float64   | Unique customer ID (5-digit).                                     | 17850.0                            |
 | Country     | object    | Country of customer.                                              | United Kingdom                     |
-
+</details>
 
 ## 3. RFM Model:
 #### 3.1. RFM introduction 
-RFM stands for Recency, frequency, and Monetary. RFM segmentation is a scoring technique used to better quantify customer behavior. The RFM model evaluates customer value based on:
+RFM stands for Recency, Frequency, and Monetary. RFM segmentation is a scoring technique used to better quantify customer behavior. The RFM model evaluates customer value based on:
 - Recency (R): How recently a customer has purchased.
 - Frequency (F): How often a customer purchases.
 - Monetary (M): How much money a customer spends
