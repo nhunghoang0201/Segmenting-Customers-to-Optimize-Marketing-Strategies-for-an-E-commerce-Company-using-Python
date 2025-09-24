@@ -126,8 +126,6 @@ RFM stands for Recency, Frequency, and Monetary. RFM segmentation is a scoring t
 
 <img width="918" height="677" alt="image" src="https://github.com/user-attachments/assets/0659c4a3-ca0a-4fbd-b4ea-cec2b6af0af3" />
 
-<img width="918" height="677" alt="image" src="https://github.com/user-attachments/assets/ac879d4b-2b7e-482a-9f1d-f3c610a84cb5" />
-
 <img width="1030" height="622" alt="image" src="https://github.com/user-attachments/assets/3b84b682-345d-4b9e-8d28-ed82506c94f2" />
 
 #### Scoring RFM
