@@ -139,8 +139,6 @@ RFM stands for Recency, Frequency, and Monetary. RFM segmentation is a scoring t
 
 <img width="1274" height="699" alt="image" src="https://github.com/user-attachments/assets/8a93b44f-7124-4423-bd42-ae1c01fdceca" />
 
-<img width="1113" height="562" alt="image" src="https://github.com/user-attachments/assets/82f1315b-645a-4de4-915f-33d990aa4503" />
-
 
 #### Customer Segmentation based on RFM model
 - Using the **RFM_Score**, customers are segmented into groups for business insights.  
